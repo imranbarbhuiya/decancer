@@ -833,9 +833,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@imranbarbhuiya/template@workspace:.":
+"@imranbarbhuiya/decancer@workspace:.":
   version: 0.0.0-use.local
-  resolution: "@imranbarbhuiya/template@workspace:."
+  resolution: "@imranbarbhuiya/decancer@workspace:."
   dependencies:
     "@commitlint/cli": ^17.0.1
     "@commitlint/config-conventional": ^17.0.0
