@@ -1,6 +1,6 @@
 {
 	"name": "@imranbarbhuiya/decancer",
-	"version": "0.0.1",
+	"version": "0.1.0",
 	"description": "A package to remove zalgo and common confusables from strings.",
 	"main": "dist/index.js",
 	"module": "dist/index.mjs",
