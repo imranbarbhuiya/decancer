@@ -1,7 +1,7 @@
 {
 	"name": "@imranbarbhuiya/decancer",
 	"version": "0.1.0",
-	"description": "A package to remove zalgo and common confusables from strings.",
+	"description": "A package to remove zalgo and common confusable characters from strings.",
 	"main": "dist/index.js",
 	"module": "dist/index.mjs",
 	"browser": "dist/index.global.js",
@@ -35,6 +35,9 @@
 	],
 	"publishConfig": {
 		"access": "public"
+	},
+	"dependencies": {
+		"unidecode": "^0.1.8"
 	},
 	"devDependencies": {
 		"@commitlint/cli": "^17.0.1",
@@ -93,8 +96,5 @@
 		"minimist": "^1.2.6"
 	},
 	"packageManager": "yarn@3.2.1",
-	"prettier": "@sapphire/prettier-config",
-	"dependencies": {
-		"unidecode": "^0.1.8"
-	}
+	"prettier": "@sapphire/prettier-config"
 }
