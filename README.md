@@ -20,6 +20,9 @@ Read Full Documentation [here](https://imranbarbhuiya.github.io/decancer).
 -   Offers CJS, ESM and UMD builds
 -   Full TypeScript & JavaScript support
 
+> **Note**
+> This project is not perfect, false-positives may happen.
+
 ## Installation
 
 You can use the following command to install this package, or replace npm install with your package manager of choice.
