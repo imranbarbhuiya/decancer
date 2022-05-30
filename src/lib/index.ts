@@ -1,1 +1,3 @@
-export const main = () => 'this builds and pushes';
+export * from './utils';
+export * from './decancer';
+export * from './isCancerous';
