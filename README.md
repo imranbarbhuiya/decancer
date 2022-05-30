@@ -10,7 +10,7 @@
 
 ## Description
 
-A package to remove zalgo and common confusables from strings.
+A package to remove zalgo and common confusable characters from strings.
 
 Read Full Documentation [here](https://imranbarbhuiya.github.io/decancer).
 
