@@ -45,6 +45,7 @@
 		"@sapphire/eslint-config": "^4.3.5",
 		"@sapphire/prettier-config": "^1.4.3",
 		"@types/jest": "^27.5.1",
+		"@types/unidecode": "^0",
 		"@typescript-eslint/eslint-plugin": "^5.26.0",
 		"@typescript-eslint/parser": "^5.26.0",
 		"cz-conventional-changelog": "^3.3.0",
@@ -92,5 +93,8 @@
 		"minimist": "^1.2.6"
 	},
 	"packageManager": "yarn@3.2.1",
-	"prettier": "@sapphire/prettier-config"
+	"prettier": "@sapphire/prettier-config",
+	"dependencies": {
+		"unidecode": "^0.1.8"
+	}
 }

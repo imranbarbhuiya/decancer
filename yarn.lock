@@ -845,6 +845,7 @@ __metadata:
     "@sapphire/eslint-config": ^4.3.5
     "@sapphire/prettier-config": ^1.4.3
     "@types/jest": ^27.5.1
+    "@types/unidecode": ^0
     "@typescript-eslint/eslint-plugin": ^5.26.0
     "@typescript-eslint/parser": ^5.26.0
     cz-conventional-changelog: ^3.3.0
@@ -861,6 +862,7 @@ __metadata:
     tsup: ^6.0.1
     typedoc: ^0.22.15
     typescript: ^4.7.2
+    unidecode: ^0.1.8
   languageName: unknown
   linkType: soft
 
@@ -1485,6 +1487,13 @@ __metadata:
   version: 2.0.1
   resolution: "@types/stack-utils@npm:2.0.1"
   checksum: 205fdbe3326b7046d7eaf5e494d8084f2659086a266f3f9cf00bccc549c8e36e407f88168ad4383c8b07099957ad669f75f2532ed4bc70be2b037330f7bae019
+  languageName: node
+  linkType: hard
+
+"@types/unidecode@npm:^0":
+  version: 0.1.1
+  resolution: "@types/unidecode@npm:0.1.1"
+  checksum: 52a370437c093fa612b2f84a392a21c5c01555d62e89f5acfad3199bf89cf6ed24092206fde566e67e12ba52ea3cb7e44acdaf101e9e0748805cf8a3cdbd2123
   languageName: node
   linkType: hard
 
@@ -7344,6 +7353,13 @@ __metadata:
     tsc: bin/tsc
     tsserver: bin/tsserver
   checksum: 7e2b9a9f4a70fb7616f1b0d986977f8e34a74f046202fa7f24fdee79589598277810fa216b3776c20c0683a9235872c73be34fdb93f67f98c1efaca40999422f
+  languageName: node
+  linkType: hard
+
+"unidecode@npm:^0.1.8":
+  version: 0.1.8
+  resolution: "unidecode@npm:0.1.8"
+  checksum: 8d07a15a28e6d2b3fb595aa3439d710c968b98a6d7fa5b2d5fdbd3498042f27e1ba1d5925541912ee14368b8a2d35767d66e3f56199f8cde1feafd62a8acd6a2
   languageName: node
   linkType: hard
 
