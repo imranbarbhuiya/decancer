@@ -29,15 +29,20 @@ You can use the following command to install this package, or replace npm instal
 
 ```bash
 npm i @imranbarbhuiya/decancer
-
 ```
 
 ## Usage
 
 ```ts
-import { decancer } from '@imranbarbhuiya/decancer';
+import { decancer, isCancerous } from '@imranbarbhuiya/decancer';
 
-const result = decancer('Hello World');
+// Check if a string is cancerous
+
+isCancerous('hello world'); // false
+isCancerous('vＥⓡ𝔂 𝔽𝕌Ňℕｙ ţ乇𝕏𝓣'); // true
+
+// Decancer a string
+const result = decancer('HУPΞЯ_XD');
 ```
 
 ## Buy me some doughnuts
