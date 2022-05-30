@@ -1,7 +1,7 @@
 {
-	"name": "@imranbarbhuiya/template",
-	"version": "0.0.0",
-	"description": "Package description.",
+	"name": "@imranbarbhuiya/decancer",
+	"version": "0.0.1",
+	"description": "A package to remove zalgo and common confusables from strings.",
 	"main": "dist/index.js",
 	"module": "dist/index.mjs",
 	"browser": "dist/index.global.js",
@@ -69,12 +69,11 @@
 	],
 	"repository": {
 		"type": "git",
-		"url": "git+https://github.com/imranbarbhuiya/template.git"
+		"url": "git+https://github.com/imranbarbhuiya/decancer.git"
 	},
 	"bugs": {
-		"url": "https://github.com/imranbarbhuiya/template/issues"
+		"url": "https://github.com/imranbarbhuiya/decancer/issues"
 	},
-	"homepage": "https://template.js.org/",
 	"commitlint": {
 		"extends": [
 			"@commitlint/config-conventional"
