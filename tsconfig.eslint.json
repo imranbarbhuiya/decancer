@@ -1,20 +1,9 @@
 {
 	"extends": "./tsconfig.base.json",
 	"compilerOptions": {
-		"allowJs": true
+		"allowJs": true,
+		"types": ["vitest/globals"]
 	},
-	"include": [
-		"**/*.ts",
-		"**/*.tsx",
-		"**/*.js",
-		"**/*.mjs",
-		"**/*.jsx",
-		"**/*.test.ts",
-		"**/*.test.js",
-		"**/*.test.mjs",
-		"**/*.spec.ts",
-		"**/*.spec.js",
-		"**/*.spec.mjs"
-	],
+	"include": ["src", "tests", "scripts", "vitest.config.ts", "tsup.config.ts"],
 	"exclude": []
 }
