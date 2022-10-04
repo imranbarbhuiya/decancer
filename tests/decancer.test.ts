@@ -11,6 +11,7 @@ describe('Decancer', () => {
 		expect(decancer('𝐍𝐨𝐰 𝐢𝐬 𝐭𝐡𝐞 𝐭𝐢𝐦𝐞 𝐟𝐨𝐫 𝐚𝐥𝐥 𝐠𝐨𝐨𝐝 𝐦𝐞𝐧.')).toBe('Now is the time for all good men.');
 		expect(decancer('𝙽𝚘𝚠 𝚒𝚜 𝚝𝚑𝚎 𝚝𝚒𝚖𝚎 𝚏𝚘𝚛 𝚊𝚕𝚕 𝚐𝚘𝚘𝚍 𝚖𝚎𝚗.')).toBe('Now is the time for all good men.');
 		expect(decancer('vＥⓡ𝔂 𝔽𝕌Ňℕｙ ţ乇𝕏𝓣')).toBe('vEry FUNNy tZhe XT');
+		expect(decancer('Ḣ͚͇͎̰̙̗̹́͟e̞̪̫̣͖̱͍̻̲ͧ̌̀̚̚͘͜w̸̡͕̽̈̾ͬw̥̪͈̖̻ͭ̈́̽ͫ̈͘ơ̢̞ͭͣ̅̑ͭ͗̒̃ ̸͔̝̟̟̳̝͋̄ͥ̈͞W̸͍̬̎̊̎̑͆̐̀̕ò̰̙̺̋ͭ͗́̄̚͝r̪͈̹͈ͧ̅ͨ͛͋͛̃͒̌́l̴̡̰̰͇̪̘̱ͯ̈̓ͨ̕d͎͙̥̩̔̾ͦ̀͞')).toBe('Hewwo World');
 	});
 
 	test('GIVEN an already decancered string THEN return the same string', () => {
