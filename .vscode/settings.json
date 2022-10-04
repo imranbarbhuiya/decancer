@@ -7,5 +7,6 @@
 	"editor.codeActionsOnSave": {
 		"source.fixAll": true
 	},
-	"cSpell.words": ["Alnum", "decancer"]
+	"cSpell.words": ["Alnum", "decancer"],
+	"editor.formatOnSave": true
 }
