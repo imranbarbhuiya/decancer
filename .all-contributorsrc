@@ -36,7 +36,9 @@
       "avatar_url": "https://avatars.githubusercontent.com/u/69213593?v=4",
       "profile": "http://voxelli.me",
       "contributions": [
-        "test"
+        "test",
+        "code",
+        "doc"
       ]
     }
   ],
