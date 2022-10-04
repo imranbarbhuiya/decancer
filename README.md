@@ -34,12 +34,15 @@ npm i @imranbarbhuiya/decancer
 ## Usage
 
 ```ts
-import { decancer, isCancerous } from '@imranbarbhuiya/decancer';
+import { decancer, isCancerous, cancerPercentage } from '@imranbarbhuiya/decancer';
 
 // Check if a string is cancerous
 
 isCancerous('hello world'); // false
 isCancerous('vＥⓡ𝔂 𝔽𝕌Ňℕｙ ţ乇𝕏𝓣'); // true
+
+cancerPercentage('vＥⓡ𝔂 𝔽𝕌Ňℕｙ ţ乇𝕏𝓣', true); // 67
+cancerPercentage('My name is Stale'); // 0
 
 // Decancer a string
 const result = decancer('HУPΞЯ_XD');
