@@ -13,7 +13,7 @@ describe('cancerPercentage', () => {
 		expect(cancerPercentage('vＥⓡ𝔂 𝔽𝕌Ňℕｙ ţ乇𝕏𝓣', true)).toBe(67);
 	});
 
-	test('GIVEN a cancerous string THEN return number', () => {
+	test('GIVEN a non-cancerous string THEN returns 0', () => {
 		expect(cancerPercentage('My name is Stale')).toBe(0);
 		expect(cancerPercentage('HYPER XD')).toBe(0);
 		expect(cancerPercentage('Mr ROTI')).toBe(0);
