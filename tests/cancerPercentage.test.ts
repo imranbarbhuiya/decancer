@@ -1,7 +1,7 @@
 import { cancerPercentage } from '../src';
 
 describe('cancerPercentage', () => {
-	test('GIVEN a cancerous string THEN return number', () => {
+	test('GIVEN a cancerous string THEN returns the percentage of cancerous characters', () => {
 		expect(cancerPercentage('My name is Ståle')).toBe(6);
 		expect(cancerPercentage('HУPΞЯ_XD')).toBe(38);
 		expect(cancerPercentage('Mr.R◦O◦T◦I...♡')).toBe(29);
