@@ -382,6 +382,7 @@ __metadata:
     typedoc: ^0.23.21
     typescript: ^4.9.3
     unidecode: ^0.1.8
+    vite: ^3.2.4
     vitest: ^0.25.3
   languageName: unknown
   linkType: soft
@@ -6849,7 +6850,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"vite@npm:^3.0.0":
+"vite@npm:^3.0.0, vite@npm:^3.2.4":
   version: 3.2.4
   resolution: "vite@npm:3.2.4"
   dependencies:
