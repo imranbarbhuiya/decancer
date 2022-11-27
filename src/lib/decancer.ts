@@ -11,7 +11,7 @@ export const decancer = (str: string) => {
 	str = str.normalize('NFKC');
 	str = str.normalize('NFD');
 	str = unidecode(str);
-	str = str.replace(/[^\d\s.A-Za-z]/g, '');
+	str = str.replaceAll(/[^\d\s.A-Za-z]/g, '');
 
 	return str.trim();
 };
