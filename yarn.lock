@@ -799,7 +799,7 @@ __metadata:
     typedoc: ^0.25.3
     typescript: ^5.2.2
     unidecode: ^0.1.8
-    vite: ^4.5.0
+    vite: ^5.0.0
     vitest: ^0.34.6
   languageName: unknown
   linkType: soft
@@ -3107,7 +3107,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"esbuild@npm:^0.19.2":
+"esbuild@npm:^0.19.2, esbuild@npm:^0.19.3":
   version: 0.19.5
   resolution: "esbuild@npm:0.19.5"
   dependencies:
@@ -3934,9 +3934,28 @@ __metadata:
   languageName: node
   linkType: hard
 
+"fsevents@npm:~2.3.3":
+  version: 2.3.3
+  resolution: "fsevents@npm:2.3.3"
+  dependencies:
+    node-gyp: latest
+  checksum: 11e6ea6fea15e42461fc55b4b0e4a0a3c654faa567f1877dbd353f39156f69def97a69936d1746619d656c4b93de2238bf731f6085a03a50cabf287c9d024317
+  conditions: os=darwin
+  languageName: node
+  linkType: hard
+
 "fsevents@patch:fsevents@~2.3.2#~builtin<compat/fsevents>":
   version: 2.3.2
   resolution: "fsevents@patch:fsevents@npm%3A2.3.2#~builtin<compat/fsevents>::version=2.3.2&hash=df0bf1"
+  dependencies:
+    node-gyp: latest
+  conditions: os=darwin
+  languageName: node
+  linkType: hard
+
+"fsevents@patch:fsevents@~2.3.3#~builtin<compat/fsevents>":
+  version: 2.3.3
+  resolution: "fsevents@patch:fsevents@npm%3A2.3.3#~builtin<compat/fsevents>::version=2.3.3&hash=df0bf1"
   dependencies:
     node-gyp: latest
   conditions: os=darwin
@@ -6560,6 +6579,17 @@ __metadata:
   languageName: node
   linkType: hard
 
+"postcss@npm:^8.4.31":
+  version: 8.4.31
+  resolution: "postcss@npm:8.4.31"
+  dependencies:
+    nanoid: ^3.3.6
+    picocolors: ^1.0.0
+    source-map-js: ^1.0.2
+  checksum: 1d8611341b073143ad90486fcdfeab49edd243377b1f51834dc4f6d028e82ce5190e4f11bb2633276864503654fb7cab28e67abdc0fbf9d1f88cad4a0ff0beea
+  languageName: node
+  linkType: hard
+
 "prelude-ls@npm:^1.2.1":
   version: 1.2.1
   resolution: "prelude-ls@npm:1.2.1"
@@ -6993,20 +7023,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"rollup@npm:^3.27.1":
-  version: 3.28.0
-  resolution: "rollup@npm:3.28.0"
-  dependencies:
-    fsevents: ~2.3.2
-  dependenciesMeta:
-    fsevents:
-      optional: true
-  bin:
-    rollup: dist/bin/rollup
-  checksum: 6ded4a0d3ca531d68e82897d5eebaa9d085014a062620bc328f2859ccf78d6a148a51ed53f1275a5f89b55cc6d7b1440b7cee44e5a9e3a51442f809b4b26f727
-  languageName: node
-  linkType: hard
-
 "rollup@npm:^3.28.0":
   version: 3.29.0
   resolution: "rollup@npm:3.29.0"
@@ -7021,7 +7037,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"rollup@npm:^4.0.2":
+"rollup@npm:^4.0.2, rollup@npm:^4.2.0":
   version: 4.5.0
   resolution: "rollup@npm:4.5.0"
   dependencies:
@@ -8298,16 +8314,16 @@ __metadata:
   languageName: node
   linkType: hard
 
-"vite@npm:^4.5.0":
-  version: 4.5.0
-  resolution: "vite@npm:4.5.0"
+"vite@npm:^5.0.0":
+  version: 5.0.0
+  resolution: "vite@npm:5.0.0"
   dependencies:
-    esbuild: ^0.18.10
-    fsevents: ~2.3.2
-    postcss: ^8.4.27
-    rollup: ^3.27.1
+    esbuild: ^0.19.3
+    fsevents: ~2.3.3
+    postcss: ^8.4.31
+    rollup: ^4.2.0
   peerDependencies:
-    "@types/node": ">= 14"
+    "@types/node": ^18.0.0 || >=20.0.0
     less: "*"
     lightningcss: ^1.21.0
     sass: "*"
@@ -8334,7 +8350,7 @@ __metadata:
       optional: true
   bin:
     vite: bin/vite.js
-  checksum: 06f1a4c858e4dc4c04a10466f4ccacea30c5a9f8574e5ba3deb9d03fa20e80ca6797f02dad97a988da7cdef96238dbc69c3b6a538156585c74722d996223619e
+  checksum: 1f953b062593b072f0e718384e1ff3307b548235ff8c4016fcaa85c09568eb0ba8cd8cfd80e99d940d3bea296b4661b1d0384fe5cb9a996d3e935feb69259755
   languageName: node
   linkType: hard
 
