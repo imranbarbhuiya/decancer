@@ -59,7 +59,6 @@
 		"tsup": "^7.3.0",
 		"typedoc": "^0.25.3",
 		"typescript": "^5.2.2",
-		"vite": "^4.5.0",
 		"vitest": "^0.34.6"
 	},
 	"files": [
@@ -91,5 +90,5 @@
 		"ansi-regex": "^5.0.1",
 		"minimist": "^1.2.8"
 	},
-	"packageManager": "yarn@3.7.0"
+	"packageManager": "yarn@4.0.2"
 }
