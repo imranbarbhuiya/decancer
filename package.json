@@ -49,12 +49,12 @@
 		"@vitest/coverage-v8": "^1.2.2",
 		"cz-conventional-changelog": "^3.3.0",
 		"eslint": "^8.56.0",
-		"eslint-config-mahir": "^0.0.36",
-		"husky": "^9.0.6",
+		"eslint-config-mahir": "^0.0.38",
+		"husky": "^9.0.10",
 		"jsdom": "^24.0.0",
-		"lint-staged": "^15.2.0",
+		"lint-staged": "^15.2.1",
 		"pinst": "^3.0.0",
-		"prettier": "^3.2.4",
+		"prettier": "^3.2.5",
 		"pretty-quick": "^4.0.0",
 		"tsup": "^8.0.1",
 		"typedoc": "^0.25.7",
@@ -90,5 +90,5 @@
 		"ansi-regex": "^5.0.1",
 		"minimist": "^1.2.8"
 	},
-	"packageManager": "yarn@4.0.2"
+	"packageManager": "yarn@4.1.0"
 }
