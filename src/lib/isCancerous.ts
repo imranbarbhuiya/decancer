@@ -4,6 +4,4 @@
  * @param str - string to check
  * @returns true if the string contains zalgo characters
  */
-export const isCancerous = (str: string) => {
-	return /[^\p{ASCII}]/u.test(str);
-};
+export const isCancerous = (str: string) => /[^\p{ASCII}]/u.test(str);
