@@ -37,7 +37,7 @@
 		"access": "public"
 	},
 	"dependencies": {
-		"unidecode": "^0.1.8"
+		"unidecode": "^1.0.1"
 	},
 	"devDependencies": {
 		"@commitlint/cli": "^19.0.3",
