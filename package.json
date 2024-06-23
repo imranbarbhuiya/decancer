@@ -57,7 +57,7 @@
 		"prettier": "^3.3.2",
 		"pretty-quick": "^4.0.0",
 		"tsup": "^8.1.0",
-		"typedoc": "^0.25.13",
+		"typedoc": "^0.26.1",
 		"typescript": "^5.5.2",
 		"vitest": "^1.6.0"
 	},
