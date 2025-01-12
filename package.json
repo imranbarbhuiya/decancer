@@ -42,7 +42,7 @@
 	"devDependencies": {
 		"@commitlint/cli": "^19.6.0",
 		"@commitlint/config-conventional": "^19.6.0",
-		"@favware/cliff-jumper": "^5.0.0",
+		"@favware/cliff-jumper": "^6.0.0",
 		"@favware/npm-deprecate": "^2.0.0",
 		"@types/jsdom": "^21.1.7",
 		"@types/unidecode": "^0.1.3",
