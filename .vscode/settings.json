@@ -5,7 +5,7 @@
 	"editor.detectIndentation": false,
 	"files.eol": "\n",
 	"editor.codeActionsOnSave": {
-		"source.fixAll": true
+		"source.fixAll": "explicit"
 	},
 	"cSpell.words": ["Alnum", "decancer"],
 	"editor.formatOnSave": true

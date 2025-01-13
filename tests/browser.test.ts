@@ -40,7 +40,6 @@ describe('browser-bundle-test', () => {
 
 declare global {
 	interface Window {
-		// eslint-disable-next-line @typescript-eslint/consistent-type-imports
 		decancer: typeof import('../src');
 	}
 }
